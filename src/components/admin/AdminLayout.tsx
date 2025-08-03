@@ -104,8 +104,8 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
               <Image 
                 src="/logo.svg" 
                 alt="AutoAni Logo" 
-                fill
-                sizes="96px"
+                width={96}
+                height={32}
                 className="object-contain"
               />
             </div>
