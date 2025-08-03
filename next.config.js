@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: 'export',  // Enable static exports for GitHub Pages
+  output: 'export',  // Enable static exports
   distDir: 'out',
   images: {
     domains: [
@@ -20,9 +20,8 @@ const nextConfig = {
       },
     ],
   },
-  // Simplified configuration for GitHub Pages
-  basePath: process.env.NODE_ENV === 'production' ? '/autoaniw' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/autoaniw' : '',
+  // Simple configuration for Netlify
+  // No basePath or assetPrefix needed for Netlify
   // Disable experimental features that might cause issues
   experimental: {
     // Disable optimizeCss as it can cause issues with static export
