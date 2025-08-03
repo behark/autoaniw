@@ -33,6 +33,10 @@ jobs:
         run: npm ci --legacy-peer-deps
       - name: Build with Next.js
         run: npm run build
+      - name: Fix GitHub Pages issues
+        run: node ./scripts/fix-gh-pages.js
+      - name: Create .nojekyll file
+        run: touch ./out/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
