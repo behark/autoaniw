@@ -3,18 +3,15 @@
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "16.19.0"
-  NPM_VERSION = "8.19.3"
+  NODE_VERSION = "18"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = false
-  conditions = {Role = ["admin"]}
 
 [[headers]]
-  for = "/static/*"
+  for = "/_next/static/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 

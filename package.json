@@ -6,11 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "axios": "^1.4.0",
+    "class-variance-authority": "^0.7.1",
     "framer-motion": "^10.12.16",
     "next": "^12.3.4",
     "react": "^18.2.0",

@@ -1,15 +1,15 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
-import { useState, useEffect } from 'react';
-import { usePathname } from 'next/navigation';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const pathname = usePathname();
+  const router = useRouter();
+  const pathname = router.pathname;
 
   // Handle scroll events
   useEffect(() => {
