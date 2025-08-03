@@ -1,0 +1,238 @@
+{
+  "manager": {
+    "title": "Media Manager",
+    "subtitle": "Manage your media assets for vehicles and marketing content",
+    "tabs": {
+      "all": "All Media",
+      "images": "Images",
+      "videos": "Videos",
+      "documents": "Documents"
+    },
+    "search": {
+      "placeholder": "Search by name, tag, or description",
+      "noResults": "No media found matching your search"
+    },
+    "filters": {
+      "title": "Filters",
+      "collection": "Collection",
+      "type": "Media Type",
+      "date": "Upload Date",
+      "size": "File Size",
+      "tags": "Tags",
+      "applyButton": "Apply Filters",
+      "clearButton": "Clear Filters"
+    },
+    "sorting": {
+      "title": "Sort By",
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "nameAZ": "Name (A-Z)",
+      "nameZA": "Name (Z-A)",
+      "sizeSmallest": "Size (Smallest)",
+      "sizeLargest": "Size (Largest)"
+    },
+    "actions": {
+      "upload": "Upload",
+      "select": "Select",
+      "edit": "Edit",
+      "delete": "Delete",
+      "download": "Download",
+      "share": "Share",
+      "bulkSelect": "Select Multiple",
+      "crop": "Crop",
+      "resize": "Resize",
+      "optimize": "Optimize",
+      "preview": "Preview",
+      "cancel": "Cancel",
+      "save": "Save",
+      "copy": "Copy",
+      "move": "Move"
+    },
+    "upload": {
+      "title": "Upload Media",
+      "dragDrop": "Drag and drop files here",
+      "browse": "Browse Files",
+      "maxSize": "Maximum file size: {{size}}",
+      "allowedTypes": "Allowed file types: {{types}}",
+      "uploading": "Uploading {{count}} file...",
+      "uploading_plural": "Uploading {{count}} files...",
+      "success": "Upload complete!",
+      "error": "Error uploading file: {{error}}",
+      "addToCollection": "Add to Collection"
+    },
+    "pagination": {
+      "showing": "Showing {{start}} to {{end}} of {{total}} items",
+      "prev": "Previous",
+      "next": "Next"
+    },
+    "batch": {
+      "title": "Batch Operations",
+      "selected": "{{count}} item selected",
+      "selected_plural": "{{count}} items selected",
+      "applyTags": "Apply Tags",
+      "removeTag": "Remove Tag",
+      "addToCollection": "Add to Collection",
+      "removeFromCollection": "Remove from Collection",
+      "deleteSelected": "Delete Selected",
+      "downloadSelected": "Download Selected",
+      "optimize": "Optimize Selected"
+    },
+    "selection": {
+      "title": "Media Selection",
+      "done": "Done",
+      "cancel": "Cancel",
+      "selectCount": "{{count}} selected",
+      "limit": "Limited to {{count}} item",
+      "limit_plural": "Limited to {{count}} items"
+    },
+    "tooltips": {
+      "edit": "Edit properties",
+      "select": "Select this item",
+      "preview": "Preview full size",
+      "delete": "Delete this item",
+      "download": "Download this file",
+      "share": "Share this item"
+    },
+    "confirmations": {
+      "deleteTitle": "Delete Media",
+      "deleteMessage": "Are you sure you want to delete this item? This action cannot be undone.",
+      "deleteMessage_plural": "Are you sure you want to delete these {{count}} items? This action cannot be undone.",
+      "deleteConfirm": "Yes, Delete",
+      "deleteCancel": "Cancel"
+    },
+    "videoEditor": {
+      "title": "Video Editor",
+      "trim": "Trim Video",
+      "selectThumbnail": "Select Thumbnail",
+      "extractFrames": "Extract Frames",
+      "customThumbnail": "Custom Thumbnail",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "duration": "Duration",
+      "applyChanges": "Apply Changes"
+    }
+  },
+  "metadata": {
+    "fields": {
+      "title": "Title",
+      "altText": "Alt Text",
+      "description": "Description",
+      "tags": "Tags",
+      "collection": "Collection",
+      "fileInfo": "File Information",
+      "dimensions": "Dimensions",
+      "size": "Size",
+      "type": "Type",
+      "uploadedBy": "Uploaded By",
+      "uploadDate": "Upload Date",
+      "modifiedDate": "Last Modified",
+      "usageCount": "Used In",
+      "copyright": "Copyright Information",
+      "locationTaken": "Location Taken",
+      "orientation": "Orientation",
+      "duration": "Duration",
+      "resolution": "Resolution",
+      "frameRate": "Frame Rate",
+      "bitRate": "Bit Rate",
+      "fileName": "File Name",
+      "fileExtension": "File Extension",
+      "width": "Width",
+      "height": "Height"
+    },
+    "placeholders": {
+      "title": "Enter a descriptive title",
+      "altText": "Describe this media for screen readers and accessibility",
+      "description": "Enter a detailed description of this media",
+      "tags": "Add descriptive tags",
+      "locationTaken": "Enter location where media was captured",
+      "copyright": "Enter copyright information"
+    },
+    "tooltips": {
+      "altText": "Alt text helps make your media accessible to people with visual impairments",
+      "tags": "Tags make your media easier to find and organize",
+      "dimensions": "Physical dimensions of the media in pixels",
+      "copyright": "Copyright information helps protect your intellectual property"
+    },
+    "validation": {
+      "titleRequired": "Title is required",
+      "altTextRequired": "Alt text is required for accessibility",
+      "maxLength": "Maximum length exceeded ({{max}} characters)",
+      "invalidFormat": "Invalid format"
+    }
+  },
+  "collections": {
+    "title": "Collections",
+    "new": "New Collection",
+    "edit": "Edit Collection",
+    "delete": "Delete Collection",
+    "name": "Collection Name",
+    "description": "Collection Description",
+    "count": "{{count}} item",
+    "count_plural": "{{count}} items",
+    "visibility": "Visibility",
+    "public": "Public",
+    "private": "Private",
+    "shared": "Shared",
+    "confirmation": {
+      "deleteTitle": "Delete Collection",
+      "deleteMessage": "Are you sure you want to delete this collection? Media items will not be deleted.",
+      "deleteConfirm": "Yes, Delete",
+      "deleteCancel": "Cancel"
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility Settings",
+    "generateAltText": "Auto-generate alt text",
+    "enhanceContrast": "Enhance contrast for previews",
+    "largerThumbnails": "Use larger thumbnails",
+    "screenReaderHints": "Include screen reader hints",
+    "focusIndicators": "Show strong focus indicators",
+    "keyboardShortcuts": "Enable keyboard shortcuts",
+    "reduceAnimations": "Reduce animations"
+  },
+  "imageEditor": {
+    "title": "Image Editor",
+    "crop": "Crop",
+    "rotate": "Rotate",
+    "flip": "Flip",
+    "resize": "Resize",
+    "filters": "Filters",
+    "adjustments": "Adjustments",
+    "preset": "Presets",
+    "brightness": "Brightness",
+    "contrast": "Contrast",
+    "saturation": "Saturation",
+    "exposure": "Exposure",
+    "temperature": "Temperature",
+    "applyChanges": "Apply Changes",
+    "resetChanges": "Reset",
+    "saveAs": "Save As",
+    "cropRatio": "Aspect Ratio",
+    "freeForm": "Free Form",
+    "square": "Square",
+    "original": "Original",
+    "custom": "Custom"
+  },
+  "errors": {
+    "uploadFailed": "Upload failed",
+    "invalidType": "Invalid file type",
+    "tooLarge": "File too large",
+    "notFound": "Media not found",
+    "fetchFailed": "Failed to fetch media",
+    "saveFailed": "Failed to save changes",
+    "deleteFailed": "Failed to delete media",
+    "optimizeFailed": "Failed to optimize media"
+  },
+  "localization": {
+    "title": "Language Settings",
+    "manageTranslations": "Manage Translations",
+    "defaultLanguage": "Default Language",
+    "generateTranslations": "Generate Translations",
+    "translationStatus": "Translation Status",
+    "completeStatus": "Complete",
+    "incompleteStatus": "Incomplete",
+    "notTranslated": "Not Translated",
+    "translateMetadata": "Translate Metadata",
+    "addLanguage": "Add Language"
+  }
+}
