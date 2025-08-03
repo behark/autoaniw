@@ -42,6 +42,8 @@
   ],
   "exclude": [
     "node_modules",
-    "src/app"
+    "src/app",
+    "components_backup",
+    "src/components_backup"
   ]
 }
