@@ -1,7 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRouter } from 'next/router';
+// usePathname equivalent in Pages Router
+const usePathname = () => {
+  const router = useRouter();
+  return router.pathname;
+};
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
