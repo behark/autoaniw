@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  output: 'export',  // Enable static exports for GitHub Pages
+  distDir: 'out',
   images: {
     domains: [
       'images.unsplash.com',
@@ -9,17 +11,19 @@ const nextConfig = {
       'autoani-media.netlify.app',
       'autoani-staging.netlify.app'
     ],
-    unoptimized: process.env.NODE_ENV === 'production'
+    unoptimized: true  // Required for static export
   },
-  output: 'standalone',
   experimental: {
     optimizeCss: true,
     largePageDataBytes: 128 * 1000, // 128KB
   },
-  i18n: {
-    locales: ['en', 'es', 'fr', 'de', 'it'],
-    defaultLocale: 'en',
-  }
+  // GitHub Pages deployment needs a basePath if not using a custom domain
+  basePath: process.env.NODE_ENV === 'production' ? '/autoaniw' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/autoaniw/' : '',
+  // Disable i18n for static export
+  i18n: undefined,
+  // Add trailing slash to improve compatibility with static hosting
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
