@@ -3,8 +3,8 @@
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "18.x"
-  NPM_FLAGS = "--legacy-peer-deps"
+  NODE_VERSION = "16.19.0"
+  NPM_VERSION = "8.19.3"
 
 [[redirects]]
   from = "/*"
