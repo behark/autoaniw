@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { VehicleCardSkeleton } from './LoadingStates';
+import React, { useEffect, useState } from 'react';
 
 interface LazyImageProps {
   src: string;
