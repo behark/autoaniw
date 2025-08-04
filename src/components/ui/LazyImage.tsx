@@ -12,7 +12,7 @@ interface LazyImageProps {
   priority?: boolean;
 }
 
-const LazyImage: React.FC<LazyImageProps> = ({
+export const LazyImage: React.FC<LazyImageProps> = ({
   src,
   alt,
   className = '',
